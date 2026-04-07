@@ -1,11 +1,11 @@
 /* appearance */
 static int showbar           = 1; /* 0 means no bar */
 static int topbar            = 1; /* 0 means bottom bar */
-static const char *fonts[]   = { "monospace:size=10" };
+static const char *fonts[]   = { "Fira Code:size=10" };
 static uint32_t colors[][3]  = {
 	/*               fg          bg         */
-	[SchemeNorm] = { 0xbbbbbbff, 0x222222ff },
-	[SchemeSel]  = { 0xeeeeeeff, 0x005577ff },
+	[SchemeNorm] = { 0xff8c68ff, 0x000000ff },
+	[SchemeSel]  = { 0xfc5e00ff, 0x000000ff },
 };
 
 /* tagging */
@@ -26,7 +26,7 @@ static const char *layouts[][2] = {
 	{ NULL,                 "><>" }, /* no layout, last layout */
 };
 
-static const char *termcmd[] = { "foot", NULL };
+static const char *termcmd[] = { "kitty", NULL };
 
 /* button definitions */
 /* click can be ClkTagBar, ClkLayout, ClkMode, ClkTitle, ClkStatus */
