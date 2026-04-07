@@ -1,5 +1,7 @@
-# dam
+# Thalweg
+Personal fork of https://codeberg.org/sewn/dam/
 
+# Dam
 dam is a itsy-bitsy dwm-esque bar for [river].
 
 ![](dam-demo.jpg)
